@@ -1,0 +1,61 @@
+{
+  "name": "cableguy-office-tracker",
+  "homepage": "http://office.cableguy.in:4841",
+  "proxy": "http://35.154.198.134:4000/",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "4.3.1",
+    "chart.js": "2.8.0",
+    "get-mac-address": "^1.0.0",
+    "getmac": "^5.17.0",
+    "history": "4.9.0",
+    "moment": "^2.29.1",
+    "network": "^0.5.0",
+    "node-sass": "^6.0.1",
+    "npm-check-updates": "^10.3.1",
+    "perfect-scrollbar": "1.4.0",
+    "react": "^17.0.2",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-table2-toolkit": "^2.1.2",
+    "react-chartjs-2": "2.7.6",
+    "react-dom": "16.8.6",
+    "react-google-maps": "9.4.5",
+    "react-notification-alert": "0.0.12",
+    "react-router": "5.0.0",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "^4.0.3",
+    "reactstrap": "8.0.0"
+  },
+  "scripts": {
+    "start": "set PORT=4841 && react-scripts start",
+    "cleanBuild": "rimraf ./build/*",
+    "build": "npm run cleanBuild && set \"GENERATE_SOURCEMAP=false\" && react-scripts build ",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css",
+    "minify-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "optionalDependencies": {
+    "@types/googlemaps": "3.36.2",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.8.19",
+    "ajv": "6.10.0",
+    "jquery": "^3.4.1",
+    "typescript": "3.4.5"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,35 @@
+{
+  "short_name": "CableGuy",
+  "name": "Smart Billing Solutions",
+  "icons": [
+    {
+    "src": "cableguy.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "cableguy.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "cableguy.png",
+    "sizes": "152x152",
+    "type": "image/png"
+  }, {
+    "src": "cableguy.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "cableguy.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }, {
+    "src": "cableguy.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
