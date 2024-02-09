@@ -7,7 +7,6 @@ import decrypt from 'utils/Functions/decrypt'
 import constants from 'utils/constants'
 import { Card, CardHeader } from 'reactstrap'
 import CardBody from 'reactstrap/lib/CardBody'
-// import ModalGenreUpdate from './ModalGenreUpdate'
 import TransactionTable from './TransactionTable'
 
 const Transaction = () => {
