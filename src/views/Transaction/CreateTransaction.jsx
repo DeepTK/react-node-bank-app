@@ -19,7 +19,6 @@ import constants from 'utils/constants'
 import { Link } from 'react-router-dom'
 import ModalAuthPassword from 'ModalAuthPassword'
 import encrypt from 'utils/Functions/encrypt'
-// import LocationSelect from "components/ReusableComponent/LocationSelect";
 
 const CreateTransaction = () => {
   const [header, setHeader] = useState('')
